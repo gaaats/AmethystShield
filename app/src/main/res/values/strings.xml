@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Amethyst Shield</string>
+    <string name="facebook_app_id">749557033057002</string>
+    <string name="facebook_client_token">a4f93ca86a433cd8bd7e5200802c7d1d</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

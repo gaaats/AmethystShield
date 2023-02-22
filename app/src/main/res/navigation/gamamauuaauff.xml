@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gamamauuaauff"
+    app:startDestination="@id/plaayayayaa1Fragment">
+
+    <fragment
+        android:id="@+id/plaayayayaa1Fragment"
+        android:name="com.generamobile.heads.Plaayayayaa1Fragment"
+        android:label="fragment_plaayayayaa1"
+        tools:layout="@layout/fragment_plaayayayaa1" >
+        <action
+            android:id="@+id/action_plaayayayaa1Fragment_to_plaayayayay2Fragment"
+            app:destination="@id/plaayayayay2Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/plaayayayay2Fragment"
+        android:name="com.generamobile.heads.Plaayayayay2Fragment"
+        android:label="fragment_plaayayayay2"
+        tools:layout="@layout/fragment_plaayayayay2" >
+        <action
+            android:id="@+id/action_plaayayayay2Fragment_to_plaayayayaa1Fragment"
+            app:destination="@id/plaayayayaa1Fragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/plaayayayaa1Fragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

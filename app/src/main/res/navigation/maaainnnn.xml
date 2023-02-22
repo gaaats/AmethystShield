@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maaainnnn"
+    app:startDestination="@id/fiiirsssttsttsFragment">
+
+    <fragment
+        android:id="@+id/fiiirsssttsttsFragment"
+        android:name="com.generamobile.heads.FiiirsssttsttsFragment"
+        android:label="fragment_fiiirsssttstts"
+        tools:layout="@layout/fragment_fiiirsssttstts" >
+        <action
+            android:id="@+id/action_fiiirsssttsttsFragment_to_seccseccccoFragment"
+            app:destination="@id/seccseccccoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seccseccccoFragment"
+        android:name="com.generamobile.heads.SeccseccccoFragment"
+        android:label="fragment_seccsecccco"
+        tools:layout="@layout/fragment_seccsecccco" >
+        <action
+            android:id="@+id/action_seccseccccoFragment_to_thhrhrriirirdFragment"
+            app:destination="@id/thhrhrriirirdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/thhrhrriirirdFragment"
+        android:name="com.generamobile.heads.ThhrhrriirirdFragment"
+        android:label="fragment_thhrhrriirird"
+        tools:layout="@layout/fragment_thhrhrriirird" >
+        <action
+            android:id="@+id/action_thhrhrriirirdFragment_to_fffffffffouuurFragment"
+            app:destination="@id/fffffffffouuurFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fffffffffouuurFragment"
+        android:name="com.generamobile.heads.FffffffffouuurFragment"
+        android:label="fragment_fffffffffouuur"
+        tools:layout="@layout/fragment_fffffffffouuur" >
+        <action
+            android:id="@+id/action_fffffffffouuurFragment_to_fiiiiveiviveieiviveFragment"
+            app:destination="@id/fiiiiveiviveieiviveFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiiiiveiviveieiviveFragment"
+        android:name="com.generamobile.heads.FiiiiveiviveieiviveFragment"
+        android:label="fragment_fiiiiveiviveieivive"
+        tools:layout="@layout/fragment_fiiiiveiviveieivive" />
+</navigation>
